@@ -5,7 +5,6 @@ machine:
 dependencies:
   override:
     - docker info
-    - sed "s/<EMAIL>/$DOCKER_EMAIL/;s/<AUTH>/$DOCKER_AUTH/" < .dockercfg.template > ~/.dockercfg
     - docker build -t anoochit/elasticsearch .
 
 test:
