@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/anoochit/docker-elasticsearch.svg?style=svg)](https://circleci.com/gh/anoochit/docker-elasticsearch)
+
 docker-elasticsearch
 ====================
 
